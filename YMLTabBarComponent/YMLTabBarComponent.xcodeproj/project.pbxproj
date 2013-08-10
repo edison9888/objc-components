@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B78B92C3147F7F40009787EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B78B92C2147F7F40009787EA /* UIKit.framework */; };
+		B78B92C5147F7F40009787EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B78B92C4147F7F40009787EA /* Foundation.framework */; };
+		B78B92C7147F7F40009787EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B78B92C6147F7F40009787EA /* CoreGraphics.framework */; };
+		B78B92CD147F7F40009787EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B78B92CB147F7F40009787EA /* InfoPlist.strings */; };
+		B78B92CF147F7F40009787EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B78B92CE147F7F40009787EA /* main.m */; };
+		B78B92D3147F7F40009787EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B78B92D2147F7F40009787EA /* AppDelegate.m */; };
+		B78B92DB147F7F63009787EA /* YMLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B78B92DA147F7F63009787EA /* YMLTabBarController.m */; };
+		B78B92DE147F7F77009787EA /* YMLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B78B92DD147F7F77009787EA /* YMLTabBar.m */; };
+		B78B92E1147F7F8A009787EA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B78B92E0147F7F8A009787EA /* FirstViewController.m */; };
+		B78B92E4147F7FA1009787EA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B78B92E3147F7FA1009787EA /* SecondViewController.m */; };
+		B78B92E7147F7FAE009787EA /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B78B92E6147F7FAD009787EA /* ThirdViewController.m */; };
+		B7A3CC63147F9A8A00FA6E78 /* bottombar.png in Resources */ = {isa = PBXBuildFile; fileRef = B7A3CC61147F9A8A00FA6E78 /* bottombar.png */; };
+		B7A3CC64147F9A8A00FA6E78 /* bottombar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7A3CC62147F9A8A00FA6E78 /* bottombar@2x.png */; };
+		B7A3CC74147FA60500FA6E78 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = B7A3CC6A147FA60400FA6E78 /* camera.png */; };
+		B7A3CC75147FA60500FA6E78 /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7A3CC6B147FA60400FA6E78 /* camera@2x.png */; };
+		B7A3CC76147FA60500FA6E78 /* profile_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = B7A3CC6C147FA60400FA6E78 /* profile_normal.png */; };
+		B7A3CC77147FA60500FA6E78 /* profile_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7A3CC6D147FA60500FA6E78 /* profile_normal@2x.png */; };
+		B7A3CC78147FA60500FA6E78 /* profile_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = B7A3CC6E147FA60500FA6E78 /* profile_pressed.png */; };
+		B7A3CC79147FA60500FA6E78 /* profile_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7A3CC6F147FA60500FA6E78 /* profile_pressed@2x.png */; };
+		B7A3CC7A147FA60500FA6E78 /* square_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = B7A3CC70147FA60500FA6E78 /* square_normal.png */; };
+		B7A3CC7B147FA60500FA6E78 /* square_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = B7A3CC71147FA60500FA6E78 /* square_pressed.png */; };
+		B7A3CC7C147FA60500FA6E78 /* square-normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7A3CC72147FA60500FA6E78 /* square-normal@2x.png */; };
+		B7A3CC7D147FA60500FA6E78 /* square-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7A3CC73147FA60500FA6E78 /* square-pressed@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B78B92BE147F7F40009787EA /* YMLTabBarComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMLTabBarComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78B92C2147F7F40009787EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B78B92C4147F7F40009787EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B78B92C6147F7F40009787EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B78B92CA147F7F40009787EA /* YMLTabBarComponent-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YMLTabBarComponent-Info.plist"; sourceTree = "<group>"; };
+		B78B92CC147F7F40009787EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B78B92CE147F7F40009787EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B78B92D0147F7F40009787EA /* YMLTabBarComponent-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YMLTabBarComponent-Prefix.pch"; sourceTree = "<group>"; };
+		B78B92D1147F7F40009787EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B78B92D2147F7F40009787EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B78B92D9147F7F63009787EA /* YMLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMLTabBarController.h; sourceTree = "<group>"; };
+		B78B92DA147F7F63009787EA /* YMLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMLTabBarController.m; sourceTree = "<group>"; };
+		B78B92DC147F7F77009787EA /* YMLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMLTabBar.h; sourceTree = "<group>"; };
+		B78B92DD147F7F77009787EA /* YMLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMLTabBar.m; sourceTree = "<group>"; };
+		B78B92DF147F7F8A009787EA /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		B78B92E0147F7F8A009787EA /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		B78B92E2147F7FA1009787EA /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B78B92E3147F7FA1009787EA /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B78B92E5147F7FAD009787EA /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		B78B92E6147F7FAD009787EA /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		B7A3CC61147F9A8A00FA6E78 /* bottombar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottombar.png; path = YMLTabBarComponent/bottombar.png; sourceTree = "<group>"; };
+		B7A3CC62147F9A8A00FA6E78 /* bottombar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bottombar@2x.png"; path = "YMLTabBarComponent/bottombar@2x.png"; sourceTree = "<group>"; };
+		B7A3CC6A147FA60400FA6E78 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = camera.png; path = YMLTabBarComponent/camera.png; sourceTree = "<group>"; };
+		B7A3CC6B147FA60400FA6E78 /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "camera@2x.png"; path = "YMLTabBarComponent/camera@2x.png"; sourceTree = "<group>"; };
+		B7A3CC6C147FA60400FA6E78 /* profile_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile_normal.png; path = YMLTabBarComponent/profile_normal.png; sourceTree = "<group>"; };
+		B7A3CC6D147FA60500FA6E78 /* profile_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profile_normal@2x.png"; path = "YMLTabBarComponent/profile_normal@2x.png"; sourceTree = "<group>"; };
+		B7A3CC6E147FA60500FA6E78 /* profile_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile_pressed.png; path = YMLTabBarComponent/profile_pressed.png; sourceTree = "<group>"; };
+		B7A3CC6F147FA60500FA6E78 /* profile_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profile_pressed@2x.png"; path = "YMLTabBarComponent/profile_pressed@2x.png"; sourceTree = "<group>"; };
+		B7A3CC70147FA60500FA6E78 /* square_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = square_normal.png; path = YMLTabBarComponent/square_normal.png; sourceTree = "<group>"; };
+		B7A3CC71147FA60500FA6E78 /* square_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = square_pressed.png; path = YMLTabBarComponent/square_pressed.png; sourceTree = "<group>"; };
+		B7A3CC72147FA60500FA6E78 /* square-normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "square-normal@2x.png"; path = "YMLTabBarComponent/square-normal@2x.png"; sourceTree = "<group>"; };
+		B7A3CC73147FA60500FA6E78 /* square-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "square-pressed@2x.png"; path = "YMLTabBarComponent/square-pressed@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B78B92BB147F7F40009787EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78B92C3147F7F40009787EA /* UIKit.framework in Frameworks */,
+				B78B92C5147F7F40009787EA /* Foundation.framework in Frameworks */,
+				B78B92C7147F7F40009787EA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B78B92B3147F7F40009787EA = {
+			isa = PBXGroup;
+			children = (
+				B78B92C8147F7F40009787EA /* YMLTabBarComponent */,
+				B78B92C1147F7F40009787EA /* Frameworks */,
+				B78B92BF147F7F40009787EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B78B92BF147F7F40009787EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B78B92BE147F7F40009787EA /* YMLTabBarComponent.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B78B92C1147F7F40009787EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B78B92C2147F7F40009787EA /* UIKit.framework */,
+				B78B92C4147F7F40009787EA /* Foundation.framework */,
+				B78B92C6147F7F40009787EA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B78B92C8147F7F40009787EA /* YMLTabBarComponent */ = {
+			isa = PBXGroup;
+			children = (
+				B7A3CC7E147FA60800FA6E78 /* Images */,
+				B78B92C9147F7F40009787EA /* Supporting Files */,
+				B78B92D1147F7F40009787EA /* AppDelegate.h */,
+				B78B92D2147F7F40009787EA /* AppDelegate.m */,
+				B78B92D9147F7F63009787EA /* YMLTabBarController.h */,
+				B78B92DA147F7F63009787EA /* YMLTabBarController.m */,
+				B78B92DC147F7F77009787EA /* YMLTabBar.h */,
+				B78B92DD147F7F77009787EA /* YMLTabBar.m */,
+				B78B92DF147F7F8A009787EA /* FirstViewController.h */,
+				B78B92E0147F7F8A009787EA /* FirstViewController.m */,
+				B78B92E2147F7FA1009787EA /* SecondViewController.h */,
+				B78B92E3147F7FA1009787EA /* SecondViewController.m */,
+				B78B92E5147F7FAD009787EA /* ThirdViewController.h */,
+				B78B92E6147F7FAD009787EA /* ThirdViewController.m */,
+			);
+			path = YMLTabBarComponent;
+			sourceTree = "<group>";
+		};
+		B78B92C9147F7F40009787EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B78B92CA147F7F40009787EA /* YMLTabBarComponent-Info.plist */,
+				B78B92CB147F7F40009787EA /* InfoPlist.strings */,
+				B78B92CE147F7F40009787EA /* main.m */,
+				B78B92D0147F7F40009787EA /* YMLTabBarComponent-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7A3CC7E147FA60800FA6E78 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B7A3CC61147F9A8A00FA6E78 /* bottombar.png */,
+				B7A3CC62147F9A8A00FA6E78 /* bottombar@2x.png */,
+				B7A3CC6A147FA60400FA6E78 /* camera.png */,
+				B7A3CC6B147FA60400FA6E78 /* camera@2x.png */,
+				B7A3CC6C147FA60400FA6E78 /* profile_normal.png */,
+				B7A3CC6D147FA60500FA6E78 /* profile_normal@2x.png */,
+				B7A3CC6E147FA60500FA6E78 /* profile_pressed.png */,
+				B7A3CC6F147FA60500FA6E78 /* profile_pressed@2x.png */,
+				B7A3CC70147FA60500FA6E78 /* square_normal.png */,
+				B7A3CC71147FA60500FA6E78 /* square_pressed.png */,
+				B7A3CC72147FA60500FA6E78 /* square-normal@2x.png */,
+				B7A3CC73147FA60500FA6E78 /* square-pressed@2x.png */,
+			);
+			name = Images;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B78B92BD147F7F40009787EA /* YMLTabBarComponent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B78B92D6147F7F40009787EA /* Build configuration list for PBXNativeTarget "YMLTabBarComponent" */;
+			buildPhases = (
+				B78B92BA147F7F40009787EA /* Sources */,
+				B78B92BB147F7F40009787EA /* Frameworks */,
+				B78B92BC147F7F40009787EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMLTabBarComponent;
+			productName = YMLTabBarComponent;
+			productReference = B78B92BE147F7F40009787EA /* YMLTabBarComponent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B78B92B5147F7F40009787EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Dealclan LLC";
+			};
+			buildConfigurationList = B78B92B8147F7F40009787EA /* Build configuration list for PBXProject "YMLTabBarComponent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B78B92B3147F7F40009787EA;
+			productRefGroup = B78B92BF147F7F40009787EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B78B92BD147F7F40009787EA /* YMLTabBarComponent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B78B92BC147F7F40009787EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78B92CD147F7F40009787EA /* InfoPlist.strings in Resources */,
+				B7A3CC63147F9A8A00FA6E78 /* bottombar.png in Resources */,
+				B7A3CC64147F9A8A00FA6E78 /* bottombar@2x.png in Resources */,
+				B7A3CC74147FA60500FA6E78 /* camera.png in Resources */,
+				B7A3CC75147FA60500FA6E78 /* camera@2x.png in Resources */,
+				B7A3CC76147FA60500FA6E78 /* profile_normal.png in Resources */,
+				B7A3CC77147FA60500FA6E78 /* profile_normal@2x.png in Resources */,
+				B7A3CC78147FA60500FA6E78 /* profile_pressed.png in Resources */,
+				B7A3CC79147FA60500FA6E78 /* profile_pressed@2x.png in Resources */,
+				B7A3CC7A147FA60500FA6E78 /* square_normal.png in Resources */,
+				B7A3CC7B147FA60500FA6E78 /* square_pressed.png in Resources */,
+				B7A3CC7C147FA60500FA6E78 /* square-normal@2x.png in Resources */,
+				B7A3CC7D147FA60500FA6E78 /* square-pressed@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B78B92BA147F7F40009787EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78B92CF147F7F40009787EA /* main.m in Sources */,
+				B78B92D3147F7F40009787EA /* AppDelegate.m in Sources */,
+				B78B92DB147F7F63009787EA /* YMLTabBarController.m in Sources */,
+				B78B92DE147F7F77009787EA /* YMLTabBar.m in Sources */,
+				B78B92E1147F7F8A009787EA /* FirstViewController.m in Sources */,
+				B78B92E4147F7FA1009787EA /* SecondViewController.m in Sources */,
+				B78B92E7147F7FAE009787EA /* ThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B78B92CB147F7F40009787EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B78B92CC147F7F40009787EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B78B92D4147F7F40009787EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B78B92D5147F7F40009787EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B78B92D7147F7F40009787EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YMLTabBarComponent/YMLTabBarComponent-Prefix.pch";
+				INFOPLIST_FILE = "YMLTabBarComponent/YMLTabBarComponent-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B78B92D8147F7F40009787EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YMLTabBarComponent/YMLTabBarComponent-Prefix.pch";
+				INFOPLIST_FILE = "YMLTabBarComponent/YMLTabBarComponent-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B78B92B8147F7F40009787EA /* Build configuration list for PBXProject "YMLTabBarComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78B92D4147F7F40009787EA /* Debug */,
+				B78B92D5147F7F40009787EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B78B92D6147F7F40009787EA /* Build configuration list for PBXNativeTarget "YMLTabBarComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78B92D7147F7F40009787EA /* Debug */,
+				B78B92D8147F7F40009787EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B78B92B5147F7F40009787EA /* Project object */;
+}

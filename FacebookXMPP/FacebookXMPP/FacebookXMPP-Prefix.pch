@@ -1,0 +1,20 @@
+//
+// Prefix header for all source files of the 'FacebookXMPP' target in the 'FacebookXMPP' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    
+//    #define FacebookKey                                 @"176415299093273"
+//    #define FacebookSecret                              @"ecdcec9f4cd1faa150bacab58a9e71ef"
+    #define FacebookKey                                 @"124651124311668"
+    #define FacebookSecret                              @"eab1d691bcb541e1888f8a72561adc62"
+    #define FacebookLoginNotificationKey                @"FACEBOOK_LOGIN_SUCCESS"
+#endif

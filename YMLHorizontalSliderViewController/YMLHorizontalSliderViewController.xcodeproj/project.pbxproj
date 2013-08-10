@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25BFD6BF1583A8BF00DDA99E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BFD6BE1583A8BF00DDA99E /* UIKit.framework */; };
+		25BFD6C11583A8BF00DDA99E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BFD6C01583A8BF00DDA99E /* Foundation.framework */; };
+		25BFD6C31583A8BF00DDA99E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BFD6C21583A8BF00DDA99E /* CoreGraphics.framework */; };
+		25BFD6C91583A8BF00DDA99E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25BFD6C71583A8BF00DDA99E /* InfoPlist.strings */; };
+		25BFD6CB1583A8BF00DDA99E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BFD6CA1583A8BF00DDA99E /* main.m */; };
+		25BFD6CF1583A8BF00DDA99E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BFD6CE1583A8BF00DDA99E /* AppDelegate.m */; };
+		25BFD6E01583A97E00DDA99E /* YMLExpandableChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BFD6DD1583A97D00DDA99E /* YMLExpandableChildViewController.m */; };
+		25BFD6E11583A97E00DDA99E /* YMLExpandableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BFD6DF1583A97D00DDA99E /* YMLExpandableViewController.m */; };
+		25BFD6E51583A9CF00DDA99E /* YMLTouchableScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BFD6E41583A9CF00DDA99E /* YMLTouchableScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25BFD6BA1583A8BF00DDA99E /* YMLHorizontalSliderViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMLHorizontalSliderViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25BFD6BE1583A8BF00DDA99E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25BFD6C01583A8BF00DDA99E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25BFD6C21583A8BF00DDA99E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25BFD6C61583A8BF00DDA99E /* YMLHorizontalSliderViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YMLHorizontalSliderViewController-Info.plist"; sourceTree = "<group>"; };
+		25BFD6C81583A8BF00DDA99E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25BFD6CA1583A8BF00DDA99E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25BFD6CC1583A8BF00DDA99E /* YMLHorizontalSliderViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YMLHorizontalSliderViewController-Prefix.pch"; sourceTree = "<group>"; };
+		25BFD6CD1583A8BF00DDA99E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25BFD6CE1583A8BF00DDA99E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25BFD6DC1583A97D00DDA99E /* YMLExpandableChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMLExpandableChildViewController.h; sourceTree = "<group>"; };
+		25BFD6DD1583A97D00DDA99E /* YMLExpandableChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMLExpandableChildViewController.m; sourceTree = "<group>"; };
+		25BFD6DE1583A97D00DDA99E /* YMLExpandableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMLExpandableViewController.h; sourceTree = "<group>"; };
+		25BFD6DF1583A97D00DDA99E /* YMLExpandableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMLExpandableViewController.m; sourceTree = "<group>"; };
+		25BFD6E31583A9CF00DDA99E /* YMLTouchableScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMLTouchableScrollView.h; sourceTree = "<group>"; };
+		25BFD6E41583A9CF00DDA99E /* YMLTouchableScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMLTouchableScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25BFD6B71583A8BF00DDA99E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BFD6BF1583A8BF00DDA99E /* UIKit.framework in Frameworks */,
+				25BFD6C11583A8BF00DDA99E /* Foundation.framework in Frameworks */,
+				25BFD6C31583A8BF00DDA99E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25BFD6AF1583A8BF00DDA99E = {
+			isa = PBXGroup;
+			children = (
+				25BFD6C41583A8BF00DDA99E /* YMLHorizontalSliderViewController */,
+				25BFD6BD1583A8BF00DDA99E /* Frameworks */,
+				25BFD6BB1583A8BF00DDA99E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25BFD6BB1583A8BF00DDA99E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25BFD6BA1583A8BF00DDA99E /* YMLHorizontalSliderViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25BFD6BD1583A8BF00DDA99E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25BFD6BE1583A8BF00DDA99E /* UIKit.framework */,
+				25BFD6C01583A8BF00DDA99E /* Foundation.framework */,
+				25BFD6C21583A8BF00DDA99E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25BFD6C41583A8BF00DDA99E /* YMLHorizontalSliderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				25BFD6E21583A9BB00DDA99E /* YMLTouchableScrollView */,
+				25BFD6CD1583A8BF00DDA99E /* AppDelegate.h */,
+				25BFD6CE1583A8BF00DDA99E /* AppDelegate.m */,
+				25BFD6DC1583A97D00DDA99E /* YMLExpandableChildViewController.h */,
+				25BFD6DD1583A97D00DDA99E /* YMLExpandableChildViewController.m */,
+				25BFD6DE1583A97D00DDA99E /* YMLExpandableViewController.h */,
+				25BFD6DF1583A97D00DDA99E /* YMLExpandableViewController.m */,
+				25BFD6C51583A8BF00DDA99E /* Supporting Files */,
+			);
+			path = YMLHorizontalSliderViewController;
+			sourceTree = "<group>";
+		};
+		25BFD6C51583A8BF00DDA99E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25BFD6C61583A8BF00DDA99E /* YMLHorizontalSliderViewController-Info.plist */,
+				25BFD6C71583A8BF00DDA99E /* InfoPlist.strings */,
+				25BFD6CA1583A8BF00DDA99E /* main.m */,
+				25BFD6CC1583A8BF00DDA99E /* YMLHorizontalSliderViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25BFD6E21583A9BB00DDA99E /* YMLTouchableScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				25BFD6E31583A9CF00DDA99E /* YMLTouchableScrollView.h */,
+				25BFD6E41583A9CF00DDA99E /* YMLTouchableScrollView.m */,
+			);
+			path = YMLTouchableScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25BFD6B91583A8BF00DDA99E /* YMLHorizontalSliderViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25BFD6D21583A8BF00DDA99E /* Build configuration list for PBXNativeTarget "YMLHorizontalSliderViewController" */;
+			buildPhases = (
+				25BFD6B61583A8BF00DDA99E /* Sources */,
+				25BFD6B71583A8BF00DDA99E /* Frameworks */,
+				25BFD6B81583A8BF00DDA99E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMLHorizontalSliderViewController;
+			productName = YMLHorizontalSliderViewController;
+			productReference = 25BFD6BA1583A8BF00DDA99E /* YMLHorizontalSliderViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25BFD6B11583A8BF00DDA99E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 25BFD6B41583A8BF00DDA99E /* Build configuration list for PBXProject "YMLHorizontalSliderViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25BFD6AF1583A8BF00DDA99E;
+			productRefGroup = 25BFD6BB1583A8BF00DDA99E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25BFD6B91583A8BF00DDA99E /* YMLHorizontalSliderViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25BFD6B81583A8BF00DDA99E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BFD6C91583A8BF00DDA99E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25BFD6B61583A8BF00DDA99E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BFD6CB1583A8BF00DDA99E /* main.m in Sources */,
+				25BFD6CF1583A8BF00DDA99E /* AppDelegate.m in Sources */,
+				25BFD6E01583A97E00DDA99E /* YMLExpandableChildViewController.m in Sources */,
+				25BFD6E11583A97E00DDA99E /* YMLExpandableViewController.m in Sources */,
+				25BFD6E51583A9CF00DDA99E /* YMLTouchableScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25BFD6C71583A8BF00DDA99E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25BFD6C81583A8BF00DDA99E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25BFD6D01583A8BF00DDA99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		25BFD6D11583A8BF00DDA99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25BFD6D31583A8BF00DDA99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YMLHorizontalSliderViewController/YMLHorizontalSliderViewController-Prefix.pch";
+				INFOPLIST_FILE = "YMLHorizontalSliderViewController/YMLHorizontalSliderViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25BFD6D41583A8BF00DDA99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YMLHorizontalSliderViewController/YMLHorizontalSliderViewController-Prefix.pch";
+				INFOPLIST_FILE = "YMLHorizontalSliderViewController/YMLHorizontalSliderViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25BFD6B41583A8BF00DDA99E /* Build configuration list for PBXProject "YMLHorizontalSliderViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25BFD6D01583A8BF00DDA99E /* Debug */,
+				25BFD6D11583A8BF00DDA99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25BFD6D21583A8BF00DDA99E /* Build configuration list for PBXNativeTarget "YMLHorizontalSliderViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25BFD6D31583A8BF00DDA99E /* Debug */,
+				25BFD6D41583A8BF00DDA99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25BFD6B11583A8BF00DDA99E /* Project object */;
+}

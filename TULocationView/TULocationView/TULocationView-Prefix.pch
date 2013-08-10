@@ -1,0 +1,23 @@
+//
+// Prefix header for all source files of the 'TULocationView' target in the 'TULocationView' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    #import "UIImage+Extension.h"
+    #import "UIColor+Extension.h"
+    #import "UIView+Extension.h"
+    #import "SpinnerHandler.h"
+
+    #define CLEAR_COLOR     [UIColor clearColor]
+    #define VIEW_FRAME      [[UIScreen mainScreen] applicationFrame]
+    #define OS_VERSION      [[[UIDevice currentDevice] systemVersion] floatValue]
+#endif

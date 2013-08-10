@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25A055461606FA0F00C5EFFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A055451606FA0F00C5EFFE /* UIKit.framework */; };
+		25A055481606FA0F00C5EFFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A055471606FA0F00C5EFFE /* Foundation.framework */; };
+		25A0554A1606FA0F00C5EFFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A055491606FA0F00C5EFFE /* CoreGraphics.framework */; };
+		25A055501606FA0F00C5EFFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25A0554E1606FA0F00C5EFFE /* InfoPlist.strings */; };
+		25A055521606FA0F00C5EFFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A055511606FA0F00C5EFFE /* main.m */; };
+		25A055561606FA0F00C5EFFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A055551606FA0F00C5EFFE /* AppDelegate.m */; };
+		25A0555C1606FA0F00C5EFFE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25A0555A1606FA0F00C5EFFE /* ViewController.xib */; };
+		25A055681606FA2F00C5EFFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A055631606FA2F00C5EFFE /* ViewController.m */; };
+		25A055691606FA2F00C5EFFE /* YMLArrangeableScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A055651606FA2F00C5EFFE /* YMLArrangeableScrollView.m */; };
+		25A0556A1606FA2F00C5EFFE /* YMLThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A055671606FA2F00C5EFFE /* YMLThumbView.m */; };
+		25A0556C1606FA5300C5EFFE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A0556B1606FA5300C5EFFE /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25A055411606FA0F00C5EFFE /* YMLArrangeableScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMLArrangeableScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A055451606FA0F00C5EFFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25A055471606FA0F00C5EFFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25A055491606FA0F00C5EFFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25A0554D1606FA0F00C5EFFE /* YMLArrangeableScrollView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YMLArrangeableScrollView-Info.plist"; sourceTree = "<group>"; };
+		25A0554F1606FA0F00C5EFFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25A055511606FA0F00C5EFFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25A055531606FA0F00C5EFFE /* YMLArrangeableScrollView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YMLArrangeableScrollView-Prefix.pch"; sourceTree = "<group>"; };
+		25A055541606FA0F00C5EFFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25A055551606FA0F00C5EFFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25A0555B1606FA0F00C5EFFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		25A055621606FA2F00C5EFFE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25A055631606FA2F00C5EFFE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25A055641606FA2F00C5EFFE /* YMLArrangeableScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMLArrangeableScrollView.h; sourceTree = "<group>"; };
+		25A055651606FA2F00C5EFFE /* YMLArrangeableScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMLArrangeableScrollView.m; sourceTree = "<group>"; };
+		25A055661606FA2F00C5EFFE /* YMLThumbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMLThumbView.h; sourceTree = "<group>"; };
+		25A055671606FA2F00C5EFFE /* YMLThumbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMLThumbView.m; sourceTree = "<group>"; };
+		25A0556B1606FA5300C5EFFE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25A0553E1606FA0F00C5EFFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A0556C1606FA5300C5EFFE /* QuartzCore.framework in Frameworks */,
+				25A055461606FA0F00C5EFFE /* UIKit.framework in Frameworks */,
+				25A055481606FA0F00C5EFFE /* Foundation.framework in Frameworks */,
+				25A0554A1606FA0F00C5EFFE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25A055361606FA0F00C5EFFE = {
+			isa = PBXGroup;
+			children = (
+				25A0554B1606FA0F00C5EFFE /* YMLArrangeableScrollView */,
+				25A055441606FA0F00C5EFFE /* Frameworks */,
+				25A055421606FA0F00C5EFFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25A055421606FA0F00C5EFFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25A055411606FA0F00C5EFFE /* YMLArrangeableScrollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25A055441606FA0F00C5EFFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25A0556B1606FA5300C5EFFE /* QuartzCore.framework */,
+				25A055451606FA0F00C5EFFE /* UIKit.framework */,
+				25A055471606FA0F00C5EFFE /* Foundation.framework */,
+				25A055491606FA0F00C5EFFE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25A0554B1606FA0F00C5EFFE /* YMLArrangeableScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				25A055541606FA0F00C5EFFE /* AppDelegate.h */,
+				25A055551606FA0F00C5EFFE /* AppDelegate.m */,
+				25A055621606FA2F00C5EFFE /* ViewController.h */,
+				25A055631606FA2F00C5EFFE /* ViewController.m */,
+				25A055641606FA2F00C5EFFE /* YMLArrangeableScrollView.h */,
+				25A055651606FA2F00C5EFFE /* YMLArrangeableScrollView.m */,
+				25A055661606FA2F00C5EFFE /* YMLThumbView.h */,
+				25A055671606FA2F00C5EFFE /* YMLThumbView.m */,
+				25A0555A1606FA0F00C5EFFE /* ViewController.xib */,
+				25A0554C1606FA0F00C5EFFE /* Supporting Files */,
+			);
+			path = YMLArrangeableScrollView;
+			sourceTree = "<group>";
+		};
+		25A0554C1606FA0F00C5EFFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25A0554D1606FA0F00C5EFFE /* YMLArrangeableScrollView-Info.plist */,
+				25A0554E1606FA0F00C5EFFE /* InfoPlist.strings */,
+				25A055511606FA0F00C5EFFE /* main.m */,
+				25A055531606FA0F00C5EFFE /* YMLArrangeableScrollView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25A055401606FA0F00C5EFFE /* YMLArrangeableScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25A0555F1606FA0F00C5EFFE /* Build configuration list for PBXNativeTarget "YMLArrangeableScrollView" */;
+			buildPhases = (
+				25A0553D1606FA0F00C5EFFE /* Sources */,
+				25A0553E1606FA0F00C5EFFE /* Frameworks */,
+				25A0553F1606FA0F00C5EFFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMLArrangeableScrollView;
+			productName = YMLArrangeableScrollView;
+			productReference = 25A055411606FA0F00C5EFFE /* YMLArrangeableScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25A055381606FA0F00C5EFFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 25A0553B1606FA0F00C5EFFE /* Build configuration list for PBXProject "YMLArrangeableScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25A055361606FA0F00C5EFFE;
+			productRefGroup = 25A055421606FA0F00C5EFFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25A055401606FA0F00C5EFFE /* YMLArrangeableScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25A0553F1606FA0F00C5EFFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A055501606FA0F00C5EFFE /* InfoPlist.strings in Resources */,
+				25A0555C1606FA0F00C5EFFE /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25A0553D1606FA0F00C5EFFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A055521606FA0F00C5EFFE /* main.m in Sources */,
+				25A055561606FA0F00C5EFFE /* AppDelegate.m in Sources */,
+				25A055681606FA2F00C5EFFE /* ViewController.m in Sources */,
+				25A055691606FA2F00C5EFFE /* YMLArrangeableScrollView.m in Sources */,
+				25A0556A1606FA2F00C5EFFE /* YMLThumbView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25A0554E1606FA0F00C5EFFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25A0554F1606FA0F00C5EFFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25A0555A1606FA0F00C5EFFE /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25A0555B1606FA0F00C5EFFE /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25A0555D1606FA0F00C5EFFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25A0555E1606FA0F00C5EFFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25A055601606FA0F00C5EFFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YMLArrangeableScrollView/YMLArrangeableScrollView-Prefix.pch";
+				INFOPLIST_FILE = "YMLArrangeableScrollView/YMLArrangeableScrollView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25A055611606FA0F00C5EFFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YMLArrangeableScrollView/YMLArrangeableScrollView-Prefix.pch";
+				INFOPLIST_FILE = "YMLArrangeableScrollView/YMLArrangeableScrollView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25A0553B1606FA0F00C5EFFE /* Build configuration list for PBXProject "YMLArrangeableScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25A0555D1606FA0F00C5EFFE /* Debug */,
+				25A0555E1606FA0F00C5EFFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25A0555F1606FA0F00C5EFFE /* Build configuration list for PBXNativeTarget "YMLArrangeableScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25A055601606FA0F00C5EFFE /* Debug */,
+				25A055611606FA0F00C5EFFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25A055381606FA0F00C5EFFE /* Project object */;
+}
