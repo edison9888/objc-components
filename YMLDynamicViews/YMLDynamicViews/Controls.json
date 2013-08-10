@@ -1,0 +1,6 @@
+{
+    "UITextField" = "1",
+    "UITextView" = "2",
+    "UIImageView" = "3",
+    "UIView" = "4",
+}

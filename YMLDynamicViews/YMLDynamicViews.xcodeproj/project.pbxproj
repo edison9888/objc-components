@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		252CBE45161F01FE00D98753 /* layout1.json in Resources */ = {isa = PBXBuildFile; fileRef = 252CBE44161F01FE00D98753 /* layout1.json */; };
+		252CBE4C161F137200D98753 /* Controls.json in Resources */ = {isa = PBXBuildFile; fileRef = 252CBE4B161F137200D98753 /* Controls.json */; };
+		2599BFC4161EA5770085F43B /* layout.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 2599BFC3161EA5770085F43B /* layout.sqlite */; };
+		2599BFC6161EA6820085F43B /* data.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 2599BFC5161EA6820085F43B /* data.sqlite */; };
+		2599BFC9161EA7890085F43B /* YMLControlManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2599BFC8161EA7890085F43B /* YMLControlManager.m */; };
+		2599BFCD161EABEC0085F43B /* YMLLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2599BFCC161EABEC0085F43B /* YMLLayoutManager.m */; };
+		2599BFD0161EAC590085F43B /* YMLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2599BFCF161EAC590085F43B /* YMLView.m */; };
+		2599BFD6161EB10B0085F43B /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2599BFD5161EB10B0085F43B /* libsqlite3.0.dylib */; };
+		2599BFDD161EB3400085F43B /* YMLSQLiteParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2599BFDC161EB33F0085F43B /* YMLSQLiteParser.m */; };
+		2599BFF1161ECF060085F43B /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 2599BFE6161ECF060085F43B /* NSObject+SBJSON.m */; };
+		2599BFF2161ECF060085F43B /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 2599BFE8161ECF060085F43B /* NSString+SBJSON.m */; };
+		2599BFF3161ECF060085F43B /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 2599BFEA161ECF060085F43B /* SBJSON.m */; };
+		2599BFF4161ECF060085F43B /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2599BFEC161ECF060085F43B /* SBJsonBase.m */; };
+		2599BFF5161ECF060085F43B /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2599BFEE161ECF060085F43B /* SBJsonParser.m */; };
+		2599BFF6161ECF060085F43B /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2599BFF0161ECF060085F43B /* SBJsonWriter.m */; };
+		2599BFF9161EDC1C0085F43B /* YMLAttributeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2599BFF8161EDC1C0085F43B /* YMLAttributeManager.m */; };
+		2599BFFC161EEA000085F43B /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2599BFFA161EEA000085F43B /* image.jpg */; };
+		2599BFFD161EEA000085F43B /* image@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2599BFFB161EEA000085F43B /* image@2x.jpg */; };
+		259C473F162299BB00081609 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 259C473E162299BB00081609 /* iCarousel.m */; };
+		259F7D3516200E2C00076E65 /* LayoutsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F7D3416200E2C00076E65 /* LayoutsViewController.m */; };
+		259F7D381620115B00076E65 /* YMLLayoutDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F7D371620115B00076E65 /* YMLLayoutDataSource.m */; };
+		259F7D3B1620156A00076E65 /* YMLSQLiteLayoutDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F7D3A1620156A00076E65 /* YMLSQLiteLayoutDataSource.m */; };
+		259F7D3D16201FEF00076E65 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259F7D3C16201FEE00076E65 /* QuartzCore.framework */; };
+		259F7D421620277500076E65 /* layout1.png in Resources */ = {isa = PBXBuildFile; fileRef = 259F7D3E1620277500076E65 /* layout1.png */; };
+		259F7D431620277500076E65 /* layout1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 259F7D3F1620277500076E65 /* layout1@2x.png */; };
+		259F7D441620277500076E65 /* layout2.png in Resources */ = {isa = PBXBuildFile; fileRef = 259F7D401620277500076E65 /* layout2.png */; };
+		259F7D451620277500076E65 /* layout2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 259F7D411620277500076E65 /* layout2@2x.png */; };
+		25B9097E161DBFF5003D5CCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B9097D161DBFF5003D5CCD /* UIKit.framework */; };
+		25B90980161DBFF5003D5CCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B9097F161DBFF5003D5CCD /* Foundation.framework */; };
+		25B90982161DBFF5003D5CCD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B90981161DBFF5003D5CCD /* CoreGraphics.framework */; };
+		25B90988161DBFF5003D5CCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25B90986161DBFF5003D5CCD /* InfoPlist.strings */; };
+		25B9098A161DBFF5003D5CCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B90989161DBFF5003D5CCD /* main.m */; };
+		25B9098E161DBFF5003D5CCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B9098D161DBFF5003D5CCD /* AppDelegate.m */; };
+		25B90991161DBFF5003D5CCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B90990161DBFF5003D5CCD /* ViewController.m */; };
+		25B90994161DBFF5003D5CCD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25B90992161DBFF5003D5CCD /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		252CBE44161F01FE00D98753 /* layout1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = layout1.json; sourceTree = "<group>"; };
+		252CBE4B161F137200D98753 /* Controls.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Controls.json; sourceTree = "<group>"; };
+		2599BFC3161EA5770085F43B /* layout.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = layout.sqlite; sourceTree = "<group>"; };
+		2599BFC5161EA6820085F43B /* data.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = data.sqlite; sourceTree = "<group>"; };
+		2599BFC7161EA7890085F43B /* YMLControlManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMLControlManager.h; sourceTree = "<group>"; };
+		2599BFC8161EA7890085F43B /* YMLControlManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMLControlManager.m; sourceTree = "<group>"; };
+		2599BFCB161EABEC0085F43B /* YMLLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMLLayoutManager.h; sourceTree = "<group>"; };
+		2599BFCC161EABEC0085F43B /* YMLLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMLLayoutManager.m; sourceTree = "<group>"; };
+		2599BFCE161EAC590085F43B /* YMLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMLView.h; sourceTree = "<group>"; };
+		2599BFCF161EAC590085F43B /* YMLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMLView.m; sourceTree = "<group>"; };
+		2599BFD5161EB10B0085F43B /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		2599BFDB161EB33F0085F43B /* YMLSQLiteParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMLSQLiteParser.h; sourceTree = "<group>"; };
+		2599BFDC161EB33F0085F43B /* YMLSQLiteParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMLSQLiteParser.m; sourceTree = "<group>"; };
+		2599BFDE161EB5810085F43B /* YMLLayoutEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMLLayoutEngine.h; sourceTree = "<group>"; };
+		2599BFE4161ECF060085F43B /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		2599BFE5161ECF060085F43B /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		2599BFE6161ECF060085F43B /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		2599BFE7161ECF060085F43B /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		2599BFE8161ECF060085F43B /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		2599BFE9161ECF060085F43B /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		2599BFEA161ECF060085F43B /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		2599BFEB161ECF060085F43B /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		2599BFEC161ECF060085F43B /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		2599BFED161ECF060085F43B /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		2599BFEE161ECF060085F43B /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		2599BFEF161ECF060085F43B /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		2599BFF0161ECF060085F43B /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		2599BFF7161EDC1C0085F43B /* YMLAttributeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMLAttributeManager.h; sourceTree = "<group>"; };
+		2599BFF8161EDC1C0085F43B /* YMLAttributeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMLAttributeManager.m; sourceTree = "<group>"; };
+		2599BFFA161EEA000085F43B /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+		2599BFFB161EEA000085F43B /* image@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image@2x.jpg"; sourceTree = "<group>"; };
+		259C473D162299BB00081609 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		259C473E162299BB00081609 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		259F7D3316200E2B00076E65 /* LayoutsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutsViewController.h; sourceTree = "<group>"; };
+		259F7D3416200E2C00076E65 /* LayoutsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutsViewController.m; sourceTree = "<group>"; };
+		259F7D361620115B00076E65 /* YMLLayoutDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMLLayoutDataSource.h; sourceTree = "<group>"; };
+		259F7D371620115B00076E65 /* YMLLayoutDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMLLayoutDataSource.m; sourceTree = "<group>"; };
+		259F7D391620156A00076E65 /* YMLSQLiteLayoutDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMLSQLiteLayoutDataSource.h; sourceTree = "<group>"; };
+		259F7D3A1620156A00076E65 /* YMLSQLiteLayoutDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMLSQLiteLayoutDataSource.m; sourceTree = "<group>"; };
+		259F7D3C16201FEE00076E65 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		259F7D3E1620277500076E65 /* layout1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = layout1.png; sourceTree = "<group>"; };
+		259F7D3F1620277500076E65 /* layout1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "layout1@2x.png"; sourceTree = "<group>"; };
+		259F7D401620277500076E65 /* layout2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = layout2.png; sourceTree = "<group>"; };
+		259F7D411620277500076E65 /* layout2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "layout2@2x.png"; sourceTree = "<group>"; };
+		25B90979161DBFF5003D5CCD /* YMLDynamicViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMLDynamicViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25B9097D161DBFF5003D5CCD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25B9097F161DBFF5003D5CCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25B90981161DBFF5003D5CCD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25B90985161DBFF5003D5CCD /* YMLDynamicViews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YMLDynamicViews-Info.plist"; sourceTree = "<group>"; };
+		25B90987161DBFF5003D5CCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25B90989161DBFF5003D5CCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25B9098B161DBFF5003D5CCD /* YMLDynamicViews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YMLDynamicViews-Prefix.pch"; sourceTree = "<group>"; };
+		25B9098C161DBFF5003D5CCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25B9098D161DBFF5003D5CCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25B9098F161DBFF5003D5CCD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25B90990161DBFF5003D5CCD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25B90993161DBFF5003D5CCD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25B90976161DBFF5003D5CCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259F7D3D16201FEF00076E65 /* QuartzCore.framework in Frameworks */,
+				2599BFD6161EB10B0085F43B /* libsqlite3.0.dylib in Frameworks */,
+				25B9097E161DBFF5003D5CCD /* UIKit.framework in Frameworks */,
+				25B90980161DBFF5003D5CCD /* Foundation.framework in Frameworks */,
+				25B90982161DBFF5003D5CCD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		252CBE47161F020900D98753 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				259F7D3E1620277500076E65 /* layout1.png */,
+				259F7D3F1620277500076E65 /* layout1@2x.png */,
+				259F7D401620277500076E65 /* layout2.png */,
+				259F7D411620277500076E65 /* layout2@2x.png */,
+				2599BFFA161EEA000085F43B /* image.jpg */,
+				2599BFFB161EEA000085F43B /* image@2x.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		252CBE48161F021200D98753 /* YMLSQLParser */ = {
+			isa = PBXGroup;
+			children = (
+				2599BFDB161EB33F0085F43B /* YMLSQLiteParser.h */,
+				2599BFDC161EB33F0085F43B /* YMLSQLiteParser.m */,
+			);
+			name = YMLSQLParser;
+			sourceTree = "<group>";
+		};
+		252CBE49161F022000D98753 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				252CBE44161F01FE00D98753 /* layout1.json */,
+				252CBE4B161F137200D98753 /* Controls.json */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		252CBE4A161F022900D98753 /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				2599BFC5161EA6820085F43B /* data.sqlite */,
+			);
+			name = SQLite;
+			sourceTree = "<group>";
+		};
+		2599BFCA161EA78F0085F43B /* LayoutEngine */ = {
+			isa = PBXGroup;
+			children = (
+				2599BFC3161EA5770085F43B /* layout.sqlite */,
+				2599BFDE161EB5810085F43B /* YMLLayoutEngine.h */,
+				259F7D361620115B00076E65 /* YMLLayoutDataSource.h */,
+				259F7D371620115B00076E65 /* YMLLayoutDataSource.m */,
+				259F7D391620156A00076E65 /* YMLSQLiteLayoutDataSource.h */,
+				259F7D3A1620156A00076E65 /* YMLSQLiteLayoutDataSource.m */,
+				2599BFC7161EA7890085F43B /* YMLControlManager.h */,
+				2599BFC8161EA7890085F43B /* YMLControlManager.m */,
+				2599BFCB161EABEC0085F43B /* YMLLayoutManager.h */,
+				2599BFCC161EABEC0085F43B /* YMLLayoutManager.m */,
+				2599BFF7161EDC1C0085F43B /* YMLAttributeManager.h */,
+				2599BFF8161EDC1C0085F43B /* YMLAttributeManager.m */,
+				2599BFCE161EAC590085F43B /* YMLView.h */,
+				2599BFCF161EAC590085F43B /* YMLView.m */,
+			);
+			name = LayoutEngine;
+			sourceTree = "<group>";
+		};
+		2599BFE3161ECF060085F43B /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				2599BFE4161ECF060085F43B /* JSON.h */,
+				2599BFE5161ECF060085F43B /* NSObject+SBJSON.h */,
+				2599BFE6161ECF060085F43B /* NSObject+SBJSON.m */,
+				2599BFE7161ECF060085F43B /* NSString+SBJSON.h */,
+				2599BFE8161ECF060085F43B /* NSString+SBJSON.m */,
+				2599BFE9161ECF060085F43B /* SBJSON.h */,
+				2599BFEA161ECF060085F43B /* SBJSON.m */,
+				2599BFEB161ECF060085F43B /* SBJsonBase.h */,
+				2599BFEC161ECF060085F43B /* SBJsonBase.m */,
+				2599BFED161ECF060085F43B /* SBJsonParser.h */,
+				2599BFEE161ECF060085F43B /* SBJsonParser.m */,
+				2599BFEF161ECF060085F43B /* SBJsonWriter.h */,
+				2599BFF0161ECF060085F43B /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		259F7D2E162008CE00076E65 /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				259C473D162299BB00081609 /* iCarousel.h */,
+				259C473E162299BB00081609 /* iCarousel.m */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		25B9096E161DBFF4003D5CCD = {
+			isa = PBXGroup;
+			children = (
+				25B90983161DBFF5003D5CCD /* YMLDynamicViews */,
+				25B9097C161DBFF5003D5CCD /* Frameworks */,
+				25B9097A161DBFF5003D5CCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25B9097A161DBFF5003D5CCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25B90979161DBFF5003D5CCD /* YMLDynamicViews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25B9097C161DBFF5003D5CCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				259F7D3C16201FEE00076E65 /* QuartzCore.framework */,
+				2599BFD5161EB10B0085F43B /* libsqlite3.0.dylib */,
+				25B9097D161DBFF5003D5CCD /* UIKit.framework */,
+				25B9097F161DBFF5003D5CCD /* Foundation.framework */,
+				25B90981161DBFF5003D5CCD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25B90983161DBFF5003D5CCD /* YMLDynamicViews */ = {
+			isa = PBXGroup;
+			children = (
+				259F7D2E162008CE00076E65 /* iCarousel */,
+				252CBE4A161F022900D98753 /* SQLite */,
+				252CBE49161F022000D98753 /* JSON */,
+				252CBE48161F021200D98753 /* YMLSQLParser */,
+				252CBE47161F020900D98753 /* Images */,
+				2599BFE3161ECF060085F43B /* JSON */,
+				2599BFCA161EA78F0085F43B /* LayoutEngine */,
+				25B9098C161DBFF5003D5CCD /* AppDelegate.h */,
+				25B9098D161DBFF5003D5CCD /* AppDelegate.m */,
+				25B9098F161DBFF5003D5CCD /* ViewController.h */,
+				25B90990161DBFF5003D5CCD /* ViewController.m */,
+				259F7D3316200E2B00076E65 /* LayoutsViewController.h */,
+				259F7D3416200E2C00076E65 /* LayoutsViewController.m */,
+				25B90992161DBFF5003D5CCD /* ViewController.xib */,
+				25B90984161DBFF5003D5CCD /* Supporting Files */,
+			);
+			path = YMLDynamicViews;
+			sourceTree = "<group>";
+		};
+		25B90984161DBFF5003D5CCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25B90985161DBFF5003D5CCD /* YMLDynamicViews-Info.plist */,
+				25B90986161DBFF5003D5CCD /* InfoPlist.strings */,
+				25B90989161DBFF5003D5CCD /* main.m */,
+				25B9098B161DBFF5003D5CCD /* YMLDynamicViews-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25B90978161DBFF5003D5CCD /* YMLDynamicViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25B90997161DBFF5003D5CCD /* Build configuration list for PBXNativeTarget "YMLDynamicViews" */;
+			buildPhases = (
+				25B90975161DBFF5003D5CCD /* Sources */,
+				25B90976161DBFF5003D5CCD /* Frameworks */,
+				25B90977161DBFF5003D5CCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMLDynamicViews;
+			productName = YMLDynamicViews;
+			productReference = 25B90979161DBFF5003D5CCD /* YMLDynamicViews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25B90970161DBFF4003D5CCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 25B90973161DBFF4003D5CCD /* Build configuration list for PBXProject "YMLDynamicViews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25B9096E161DBFF4003D5CCD;
+			productRefGroup = 25B9097A161DBFF5003D5CCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25B90978161DBFF5003D5CCD /* YMLDynamicViews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25B90977161DBFF5003D5CCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B90988161DBFF5003D5CCD /* InfoPlist.strings in Resources */,
+				25B90994161DBFF5003D5CCD /* ViewController.xib in Resources */,
+				2599BFC4161EA5770085F43B /* layout.sqlite in Resources */,
+				2599BFC6161EA6820085F43B /* data.sqlite in Resources */,
+				2599BFFC161EEA000085F43B /* image.jpg in Resources */,
+				2599BFFD161EEA000085F43B /* image@2x.jpg in Resources */,
+				252CBE45161F01FE00D98753 /* layout1.json in Resources */,
+				252CBE4C161F137200D98753 /* Controls.json in Resources */,
+				259F7D421620277500076E65 /* layout1.png in Resources */,
+				259F7D431620277500076E65 /* layout1@2x.png in Resources */,
+				259F7D441620277500076E65 /* layout2.png in Resources */,
+				259F7D451620277500076E65 /* layout2@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25B90975161DBFF5003D5CCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B9098A161DBFF5003D5CCD /* main.m in Sources */,
+				25B9098E161DBFF5003D5CCD /* AppDelegate.m in Sources */,
+				25B90991161DBFF5003D5CCD /* ViewController.m in Sources */,
+				2599BFC9161EA7890085F43B /* YMLControlManager.m in Sources */,
+				2599BFCD161EABEC0085F43B /* YMLLayoutManager.m in Sources */,
+				2599BFD0161EAC590085F43B /* YMLView.m in Sources */,
+				2599BFDD161EB3400085F43B /* YMLSQLiteParser.m in Sources */,
+				2599BFF1161ECF060085F43B /* NSObject+SBJSON.m in Sources */,
+				2599BFF2161ECF060085F43B /* NSString+SBJSON.m in Sources */,
+				2599BFF3161ECF060085F43B /* SBJSON.m in Sources */,
+				2599BFF4161ECF060085F43B /* SBJsonBase.m in Sources */,
+				2599BFF5161ECF060085F43B /* SBJsonParser.m in Sources */,
+				2599BFF6161ECF060085F43B /* SBJsonWriter.m in Sources */,
+				2599BFF9161EDC1C0085F43B /* YMLAttributeManager.m in Sources */,
+				259F7D3516200E2C00076E65 /* LayoutsViewController.m in Sources */,
+				259F7D381620115B00076E65 /* YMLLayoutDataSource.m in Sources */,
+				259F7D3B1620156A00076E65 /* YMLSQLiteLayoutDataSource.m in Sources */,
+				259C473F162299BB00081609 /* iCarousel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25B90986161DBFF5003D5CCD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25B90987161DBFF5003D5CCD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25B90992161DBFF5003D5CCD /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25B90993161DBFF5003D5CCD /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25B90995161DBFF5003D5CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25B90996161DBFF5003D5CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25B90998161DBFF5003D5CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sumit Mehra (3GE4K2W7LW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sumit Mehra (3GE4K2W7LW)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YMLDynamicViews/YMLDynamicViews-Prefix.pch";
+				INFOPLIST_FILE = "YMLDynamicViews/YMLDynamicViews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "233CB319-CBDE-401C-9856-4358A20FADF3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "233CB319-CBDE-401C-9856-4358A20FADF3";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25B90999161DBFF5003D5CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sumit Mehra (3GE4K2W7LW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sumit Mehra (3GE4K2W7LW)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YMLDynamicViews/YMLDynamicViews-Prefix.pch";
+				INFOPLIST_FILE = "YMLDynamicViews/YMLDynamicViews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "233CB319-CBDE-401C-9856-4358A20FADF3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "233CB319-CBDE-401C-9856-4358A20FADF3";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25B90973161DBFF4003D5CCD /* Build configuration list for PBXProject "YMLDynamicViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25B90995161DBFF5003D5CCD /* Debug */,
+				25B90996161DBFF5003D5CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25B90997161DBFF5003D5CCD /* Build configuration list for PBXNativeTarget "YMLDynamicViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25B90998161DBFF5003D5CCD /* Debug */,
+				25B90999161DBFF5003D5CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25B90970161DBFF4003D5CCD /* Project object */;
+}

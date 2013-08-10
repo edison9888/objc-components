@@ -1,0 +1,17 @@
+{
+
+    "1" : {"frame":{"x":"0", "y":"0", "width":"fill", "height":"fill"}, "tag":"1"},
+
+    "layout_controls" : {
+        "1" : {"frame":{"x":"auto", "y":"15", "width":"274", "height":"40"}, "tag":"1", "zIndex":"1"}
+
+        "4" : {"frame":{"x":"auto", "y":"68", "width":"274", "height":"200"}, "tag":"2", "zIndex":"2", "background":{"red":"1.0", "green":"1.0", "blue":"1.0", "alpha":"1.0"}, "shadow":{"shadowOffset":{"x":"0", "y":"0"}, "shadowColor":{"red":"0.0", "green":"0.0", "blue":"0.0", "alpha":"1.0"}, "shadowOpacity":"0.5"}}
+        
+        "3" : {"frame":{"x":"auto", "y":"73", "width":"264", "height":"190"}, "tag":"3", "UserInteraction":"1", "zIndex":"3"}
+
+        "2" : {"frame":{"x":"auto", "y":"278", "width":"274", "height":"64"}, "tag":"4",  "zIndex":"4"}
+    }
+}
+
+// CREATE TABLE layout_controls(layoutid varchar, controlid varchar, control_attributes varchar, foreign key(layoutid) references layouts(layoutid), foreign key(controlid) references controls(controlid));
+// CREATE TABLE layouts(layoutid varchar PRIMARY KEY, layout_attributes varchar);
